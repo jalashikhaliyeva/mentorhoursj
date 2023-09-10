@@ -1,0 +1,81 @@
+* { 
+    box-sizing: border-box; 
+    margin: 0;  
+    padding: 0;
+}       
+    
+/* .profile-card { 
+    display: flex;      
+    position: relative;
+} */
+.imag { 
+    display: flex;  
+    position: relative; 
+    gap: 20px;  
+    
+}   
+.profile-card img { 
+    border-radius: 50px;
+}   
+
+.body {     
+    margin: 100px 100px;    
+    padding: 20px;
+      
+    
+    /* justify-content: center; */
+    border: 2px solid rgb(82, 73, 73);  
+    /* width: 50%;  */  
+    width: 40%;
+    height: 300px;
+    border-radius: 45px;    
+    background-color: rgb(212, 207, 207);
+}
+
+.profile-card img { 
+    object-fit: cover;  
+    height: 100px;      
+    /* gap: 20px; */
+    width: 100px;
+}   
+.boxharry { 
+    width: 80%;
+    float: right;   
+    /* display: flex;   
+    justify-content: space-between; */  
+
+}   
+
+.boxharry h1 {  
+    float: left;
+}
+ul {    
+    padding: 20px;  
+    margin: 10px;   
+    font-family: monospace;   
+    
+    color: rgb(5, 5, 5);
+}
+
+ 
+h1 {    
+    font-family: fantasy;   
+    font-weight: 10;
+    color: rgb(216, 43, 13);    
+    float: right;
+}   
+p { 
+    font-family: monospace;   
+    float: right;
+    color: rgb(5, 5, 5);
+}
+h2 {        
+    font-family: fantasy;
+    font-weight: 10;    
+    color: rgb(216, 43, 13);
+}   
+
+.skill h2 {    
+    display: flex;  
+    justify-content:center ;
+}
